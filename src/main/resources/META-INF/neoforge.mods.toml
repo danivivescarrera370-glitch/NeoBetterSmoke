@@ -1,0 +1,34 @@
+modLoader="kotlin"
+loaderVersion="[5,)"
+displayURL="https://github.com"
+logoFile="icon.png"
+credits="Special thanks to Marlilo for the original Fabric codebase design."
+license="MIT"
+
+[[mods]]
+    modId="neobettersmoke"
+    version="1.0.0"
+    displayName="Neo Better Smoke"
+    authors="Silas (Port Developer), Marlilo (Original Creator)"
+    description="An unofficial NeoForge port of the original Fabric Better Smoke mod. Upgrades campfire and smoker rendering mechanics with native particle vectors. Original assets and code concepts by Marlilo, ported to NeoForge by Silas."
+
+[[dependencies.neobettersmoke]]
+    modId="kotlinforforge"
+    type="required"
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.neobettersmoke]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.neobettersmoke]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.2,26.3)"
+    ordering="NONE"
+    side="BOTH"
